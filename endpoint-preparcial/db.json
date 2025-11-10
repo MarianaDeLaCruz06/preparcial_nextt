@@ -1,0 +1,217 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "jdoe",
+      "password": "123456",
+      "email": "jdoe@example.com",
+      "first_name": "John",
+      "last_name": "Doe",
+      "phone_number": "555-1234",
+      "address": "123 Main St",
+      "is_active": true
+    },
+    {
+      "id": 2,
+      "username": "asmith",
+      "password": "password",
+      "email": "asmith@example.com",
+      "first_name": "Alice",
+      "last_name": "Smith",
+      "phone_number": "555-5678",
+      "address": "456 Oak St",
+      "is_active": true
+    },
+    {
+      "id": 3,
+      "username": "bwilson",
+      "password": "secret",
+      "email": "bwilson@example.com",
+      "first_name": "Bob",
+      "last_name": "Wilson",
+      "phone_number": "555-9012",
+      "address": "789 Pine St",
+      "is_active": true
+    },
+    {
+      "id": 4,
+      "username": "cgarcia",
+      "password": "pass123",
+      "email": "cgarcia@example.com",
+      "first_name": "Carla",
+      "last_name": "Garcia",
+      "phone_number": "555-2233",
+      "address": "321 Elm St",
+      "is_active": false
+    },
+    {
+      "id": 5,
+      "username": "dtorres",
+      "password": "torres!",
+      "email": "dtorres@example.com",
+      "first_name": "Diego",
+      "last_name": "Torres",
+      "phone_number": "555-3344",
+      "address": "654 Maple St",
+      "is_active": true
+    },
+    {
+      "id": 6,
+      "username": "emartin",
+      "password": "martin123",
+      "email": "emartin@example.com",
+      "first_name": "Elena",
+      "last_name": "Martin",
+      "phone_number": "555-5566",
+      "address": "111 Birch St",
+      "is_active": true
+    },
+    {
+      "id": 7,
+      "username": "fgomez",
+      "password": "gomezpass",
+      "email": "fgomez@example.com",
+      "first_name": "Fernando",
+      "last_name": "Gomez",
+      "phone_number": "555-7788",
+      "address": "222 Cedar St",
+      "is_active": true
+    },
+    {
+      "id": 8,
+      "username": "hlopez",
+      "password": "lopez987",
+      "email": "hlopez@example.com",
+      "first_name": "Hector",
+      "last_name": "Lopez",
+      "phone_number": "555-8899",
+      "address": "333 Willow St",
+      "is_active": false
+    },
+    {
+      "id": 9,
+      "username": "imendoza",
+      "password": "mendoza!",
+      "email": "imendoza@example.com",
+      "first_name": "Irene",
+      "last_name": "Mendoza",
+      "phone_number": "555-9900",
+      "address": "444 Cherry St",
+      "is_active": true
+    },
+    {
+      "id": 10,
+      "username": "jnavarro",
+      "password": "navarro123",
+      "email": "jnavarro@example.com",
+      "first_name": "Javier",
+      "last_name": "Navarro",
+      "phone_number": "555-1122",
+      "address": "555 Poplar St",
+      "is_active": true
+    }
+  ],
+
+  "posts": [
+    {
+      "id": 1,
+      "content": "Primer post de prueba sobre desarrollo web.",
+      "created_at": "2025-10-01T10:00:00Z",
+      "user_id": 1,
+      "comments": [
+        {
+          "id": 1,
+          "content": "Excelente publicación, me ayudó mucho.",
+          "user_id": 2,
+          "created_at": "2025-10-01T12:00:00Z"
+        },
+        {
+          "id": 2,
+          "content": "Gracias por compartir esta información.",
+          "user_id": 3,
+          "created_at": "2025-10-01T13:15:00Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "content": "Explorando nuevas tendencias en inteligencia artificial.",
+      "created_at": "2025-10-02T12:30:00Z",
+      "user_id": 2,
+      "comments": [
+        {
+          "id": 3,
+          "content": "Interesante tema, gracias por compartir.",
+          "user_id": 3,
+          "created_at": "2025-10-02T14:10:00Z"
+        },
+        {
+          "id": 4,
+          "content": "Podrías mencionar algunas herramientas de IA útiles.",
+          "user_id": 4,
+          "created_at": "2025-10-02T16:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "content": "Tips para mejorar tu productividad diaria.",
+      "created_at": "2025-10-03T15:45:00Z",
+      "user_id": 3,
+      "comments": [
+        {
+          "id": 5,
+          "content": "Muy útil, espero más artículos así.",
+          "user_id": 1,
+          "created_at": "2025-10-03T16:00:00Z"
+        },
+        {
+          "id": 6,
+          "content": "Implementé algunos consejos y me funcionaron.",
+          "user_id": 5,
+          "created_at": "2025-10-03T18:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "content": "Cómo diseñar bases de datos relacionales.",
+      "created_at": "2025-10-04T09:20:00Z",
+      "user_id": 4,
+      "comments": [
+        {
+          "id": 7,
+          "content": "Buena explicación sobre diseño de bases de datos.",
+          "user_id": 5,
+          "created_at": "2025-10-04T10:15:00Z"
+        },
+        {
+          "id": 8,
+          "content": "Me gustaría ver un ejemplo práctico.",
+          "user_id": 6,
+          "created_at": "2025-10-04T11:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "content": "Últimos avances en ciberseguridad.",
+      "created_at": "2025-10-05T08:00:00Z",
+      "user_id": 5,
+      "comments": [
+        {
+          "id": 9,
+          "content": "Gran aporte, gracias!",
+          "user_id": 7,
+          "created_at": "2025-10-05T09:45:00Z"
+        },
+        {
+          "id": 10,
+          "content": "¿Podrías hablar de seguridad en IoT?",
+          "user_id": 8,
+          "created_at": "2025-10-05T11:00:00Z"
+        }
+      ]
+    }
+  ]
+}

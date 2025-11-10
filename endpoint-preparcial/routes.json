@@ -1,0 +1,4 @@
+{
+    "/api/login": "/posts?category=:category",
+    "/comments/:id/post": "/posts?comments.id=:id"
+  }

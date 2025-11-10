@@ -1,0 +1,20 @@
+{
+  "name": "outcome-curr-mgmnt-bannermock",
+  "version": "1.0.0",
+  "description": "Curriculum Management Banner Mock ",
+  "main": "index.js",
+  "author": "leobusta",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.17.3",
+    "jsonwebtoken": "^9.0.2"
+
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "scripts":{
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  }
+}
