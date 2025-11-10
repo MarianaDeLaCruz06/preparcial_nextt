@@ -32,8 +32,8 @@ Before accessing any other endpoints, you must first authenticate.
 - **URL**: [http://localhost:8000/ic_rest_interfaces_test/api/login/]
 - **Method**: `POST`
 - **Body**:
-  - `username`: "banner_test"
-  - `password`: "banner_pass"
+  - `username`: "user_test"
+  - `password`: "user_pass"
 - **Response**: 
   - **Success**: Returns a token to be used for subsequent requests.
   - **Error**: Error message.
@@ -53,7 +53,7 @@ Retrieve a list of all courses.
 ## Usage
 
 1. First, login to get your token:
-   ``` curl -X POST 'http://localhost:8000/ic_rest_interfaces_test/api/login' --header 'Content-Type: application/json' --data-raw '{   "username": "banner_test", "password": "banner_pass" }' ```
+   ``` curl -X POST 'http://localhost:8000/ic_rest_interfaces_test/api/login' --header 'Content-Type: application/json' --data-raw '{   "username": "user_test", "password": "user_pass" }' ```
 
 2. Use the token to fetch courses:
    ```curl -H "Authorization: Bearer [your-token]" http://localhost:8000/ic_rest_interfaces_test/api/courses```
